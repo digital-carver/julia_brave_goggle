@@ -18,25 +18,25 @@ $boost,site=lwn.net
 
 ! Boost some results
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
-$boost=4,site=julialang.org
-$boost=4,site=juliahub.com
-$boost=3,site=juliadata.org
-$boost=3,site=juliadatascience.io
-$boost=3,site=juliastats.org
-$boost=3,site=julia-vscode.org
-$boost=3,site=juliacon.org
-$boost=3,site=juliaplots.org
-$boost=3,site=biojulia.net
-$boost=3,site=bkamins.github.io
-$boost=3,site=juliasymbolics.org
-$boost=3,site=sciml.ai
-$boost=3,site=juliafem.org
-$boost=3,site=plutojl.org
-$boost=2,site=juliafordatascience.com
-/posts/$boost=2,site=huijzer.xyz
-/posts/$boost=2,site=viralinstruction.com
-/blog/$boost=2,site=abelsiqueira.com
-/pages/$boost=2,site=jkrumbiegel.com
+$boost=5,site=julialang.org
+$boost=5,site=juliahub.com
+$boost=4,site=juliadata.org
+$boost=4,site=juliadatascience.io
+$boost=4,site=juliastats.org
+$boost=4,site=julia-vscode.org
+$boost=4,site=juliacon.org
+$boost=4,site=juliaplots.org
+$boost=4,site=biojulia.net
+$boost=4,site=bkamins.github.io
+$boost=4,site=juliasymbolics.org
+$boost=4,site=sciml.ai
+$boost=4,site=juliafem.org
+$boost=4,site=plutojl.org
+$boost=3,site=juliafordatascience.com
+/posts/$boost=3,site=huijzer.xyz
+/posts/$boost=3,site=viralinstruction.com
+/blog/$boost=3,site=abelsiqueira.com
+/pages/$boost=3,site=jkrumbiegel.com
 $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
