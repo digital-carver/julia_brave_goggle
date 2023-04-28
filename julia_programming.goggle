@@ -14,14 +14,15 @@
 *julia*$boost,site=github.io
 *julia*$boost,site=stackoverflow.com
 $boost,site=lwn.net
+/*.jl^$boost,site=gitlab.com
 
 ! Boost some results
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
 $boost=4,site=julialang.org
 $boost=4,site=juliahub.com
 $boost=3,site=juliadata.org
+$boost=3,site=juliadatascience.io
 $boost=3,site=juliastats.org
-$boost=3,site=juliafordatascience.com
 $boost=3,site=julia-vscode.org
 $boost=3,site=juliacon.org
 $boost=3,site=juliaplots.org
@@ -30,20 +31,27 @@ $boost=3,site=bkamins.github.io
 $boost=3,site=juliasymbolics.org
 $boost=3,site=sciml.ai
 $boost=3,site=juliafem.org
+$boost=3,site=plutojl.org
+$boost=2,site=juliafordatascience.com
 /posts/$boost=2,site=huijzer.xyz
 /posts/$boost=2,site=viralinstruction.com
 /blog/$boost=2,site=abelsiqueira.com
+/pages/$boost=2,site=jkrumbiegel.com
 $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
+$boost,site=towardsdatascience.com
 
 /julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
 /r/Julia/$boost,site=reddit.com
-/wiki/Introducing_Julia$boost,site=en.wikibooks.org
+Introducing_Julia$boost,site=en.wikibooks.org
 /tracks/julia/$boost,site=exercism.org
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
+
+! Brave still sometimes shows these ancient docs
+|http://web.mit.edu/julia_v0.6.2/$downrank
 
 ! Exclusion rules
 ! $discard,site=
