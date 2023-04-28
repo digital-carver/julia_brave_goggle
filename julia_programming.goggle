@@ -30,8 +30,9 @@ $boost=3,site=bkamins.github.io
 $boost=3,site=juliasymbolics.org
 $boost=3,site=sciml.ai
 $boost=3,site=juliafem.org
-$boost=2,site=huijzer.xyz
-$boost=2,site=viralinstruction.com
+/posts/$boost=2,site=huijzer.xyz
+/posts/$boost=2,site=viralinstruction.com
+/blog/$boost=2,site=abelsiqueira.com
 $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
