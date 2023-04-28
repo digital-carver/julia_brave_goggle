@@ -10,34 +10,36 @@
 
 ! Generic boosting
 *julia*$boost,site=github.com
+/*.jl^$boost,site=github.com
 *julia*$boost,site=github.io
 *julia*$boost,site=stackoverflow.com
 $boost,site=lwn.net
-/*.jl^$boost,site=github.com
 
 ! Boost some results
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
 $boost=4,site=julialang.org
 $boost=4,site=juliahub.com
-$boost,site=juliabloggers.com
 $boost=3,site=juliadata.org
 $boost=3,site=juliastats.org
-$boost=2,site=huijzer.xyz
 $boost=3,site=juliafordatascience.com
 $boost=3,site=julia-vscode.org
-/r/Julia/$boost,site=reddit.com
 $boost=3,site=juliacon.org
 $boost=3,site=juliaplots.org
-$boost,site=juliaacademy.com
-/julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
-$boost,site=julia.mit.edu
 $boost=3,site=biojulia.net
 $boost=3,site=bkamins.github.io
 $boost=3,site=juliasymbolics.org
 $boost=3,site=sciml.ai
-/wiki/Introducing_Julia$boost,site=en.wikibooks.org
 $boost=3,site=juliafem.org
-/tracks/julia/$boost=3,site=exercism.org
+$boost=2,site=huijzer.xyz
+$boost=2,site=viralinstruction.com
+$boost,site=juliaacademy.com
+$boost,site=julia.mit.edu
+$boost,site=juliabloggers.com
+
+/julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
+/r/Julia/$boost,site=reddit.com
+/wiki/Introducing_Julia$boost,site=en.wikibooks.org
+/tracks/julia/$boost,site=exercism.org
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
