@@ -8,40 +8,48 @@
 ! Remove results not matching any other rule
 ! $discard
 
-! Generic boosting
-*julia*$boost,site=github.com
+! Generic heuristic boosting
+julia$boost,site=github.com
 /*.jl^$boost,site=github.com
-*julia*$boost,site=github.io
-*julia*$boost,site=stackoverflow.com
+julia$boost,site=github.io
+julia$boost,site=stackoverflow.com
 $boost,site=lwn.net
 /*.jl^$boost,site=gitlab.com
 
-! Boost some results
+! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
 $boost=5,site=julialang.org
 $boost=5,site=juliahub.com
-$boost=4,site=juliadata.org
-$boost=4,site=juliadatascience.io
-$boost=4,site=juliastats.org
-$boost=4,site=julia-vscode.org
 $boost=4,site=juliacon.org
-$boost=4,site=juliaplots.org
+
+! sites of Julia package organizations
 $boost=4,site=biojulia.net
-$boost=4,site=bkamins.github.io
-$boost=4,site=juliasymbolics.org
-$boost=4,site=sciml.ai
+$boost=4,site=juliadata.org
 $boost=4,site=juliafem.org
+$boost=4,site=juliaplots.org
+$boost=4,site=juliastats.org
+$boost=4,site=juliasymbolics.org
 $boost=4,site=plutojl.org
-/catam-julia/$boost=4,site=sje30.github.io
+$boost=4,site=sciml.ai
+
+! other sites with very useful learning resources
+$boost=4,site=bkamins.github.io
 $boost=4,site=computationalthinking.mit.edu
-$boost=4,site=techytok.com
-$boost=4,site=julia.quantecon.org
+$boost=4,site=julia-vscode.org
+$boost=4,site=juliadatascience.io
 $boost=4,site=juliateachingctu.github.io
+$boost=4,site=julia.quantecon.org
+/catam-julia/$boost=4,site=sje30.github.io
+$boost=4,site=techytok.com
+
+! Good blog posts
 $boost=3,site=juliafordatascience.com
 /posts/$boost=3,site=huijzer.xyz
 /posts/$boost=3,site=viralinstruction.com
 /blog/$boost=3,site=abelsiqueira.com
 /pages/$boost=3,site=jkrumbiegel.com
+
+! Other potentially useful resources
 $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
