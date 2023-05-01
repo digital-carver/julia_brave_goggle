@@ -5,8 +5,8 @@
 ! avatar: #FFF9E3 
 ! issues: https://github.com/digital-carver/julia_brave_goggle/issues
 
-! Remove results not matching any other rule
-! $discard
+! Downrank results not matching any other rule
+$downrank
 
 ! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
