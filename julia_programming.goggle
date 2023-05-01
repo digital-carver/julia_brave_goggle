@@ -23,12 +23,26 @@ $boost=5,site=juliahub.com
 $boost=4,site=juliacon.org
 
 ! sites of Julia package organizations
+/*.jl^$boost=4,site=beacon-biosignals.github.io
 $boost=4,site=biojulia.net
+/*.jl^$boost=4,site=invenia.github.io
+$boost=4,site=juliaanimators.github.io
+$boost=4,site=juliaarrays.github.io
+$boost=4,site=juliacollections.github.io
 $boost=4,site=juliadata.org
 $boost=4,site=juliafem.org
+$boost=4,site=juliageo.org
+$boost=4,site=juliagraphs.org
+$boost=4,site=juliagraphics.github.io
+$boost=4,site=juliaio.github.io
+$boost=4,site=juliamath.github.io
 $boost=4,site=juliaplots.org
 $boost=4,site=juliastats.org
 $boost=4,site=juliasymbolics.org
+$boost=4,site=jump.dev
+! has the very useful JuliaNotes.jl, among other packages
+$boost=4,site=m3g.github.io
+$boost=4,site=makie.org
 $boost=4,site=plutojl.org
 $boost=4,site=sciml.ai
 
@@ -36,7 +50,10 @@ $boost=4,site=sciml.ai
 $boost=4,site=bkamins.github.io
 $boost=4,site=computationalthinking.mit.edu
 $boost=4,site=julia-vscode.org
+! mainly for the Zulip archive
+$boost=4,site=juliacommunity.github.io
 $boost=4,site=juliadatascience.io
+$boost=4,site=forem.julialang.org
 $boost=4,site=juliateachingctu.github.io
 $boost=4,site=julia.quantecon.org
 /catam-julia/$boost=4,site=sje30.github.io
@@ -54,11 +71,13 @@ $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
 $boost,site=towardsdatascience.com
-
+julia$boost,site=foxinfotech.org
+$boost,site=gadflyjl.org
 /julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
 /r/Julia/$boost,site=reddit.com
 Introducing_Julia$boost,site=en.wikibooks.org
 /tracks/julia/$boost,site=exercism.org
+$boost,site=quinnj.github.io
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
@@ -67,4 +86,6 @@ $downrank,site=juliapackages.com
 |http://web.mit.edu/julia_v0.6.2/$downrank
 
 ! Exclusion rules
-! $discard,site=
+! site SSL expired, and mostly doesn't work even if that's bypassed
+$discard,site=juliaobserver.com
+
