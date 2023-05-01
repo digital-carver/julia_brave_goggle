@@ -25,6 +25,7 @@ $boost=4,site=juliacollections.github.io
 $boost=4,site=juliadata.org
 $boost=4,site=juliafem.org
 $boost=4,site=juliageo.org
+$boost=4,site=juliagpu.org
 $boost=4,site=juliagraphs.org
 $boost=4,site=juliagraphics.github.io
 $boost=4,site=juliaio.github.io
@@ -74,11 +75,15 @@ $boost,site=quinnj.github.io
 
 ! Generic heuristic boosting
 julia$boost=3,site=github.com
+! not clear if patterns are case sensitive, so:
+Julia$boost=3,site=github.com
 /*.jl^$boost=3,site=github.com
-julia$boost,site=github.io
-julia$boost,site=stackoverflow.com
-$boost,site=lwn.net
+julia$boost=3,site=github.io
+julia$boost=3,site=stackoverflow.com
 /*.jl^$boost=3,site=gitlab.com
+
+! LWN has good Julia articles, but the URLs are non-pattern-matchable, so go generic boost
+$boost,site=lwn.net
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
