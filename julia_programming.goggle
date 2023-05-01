@@ -18,6 +18,7 @@ $boost=4,site=juliacon.org
 /*.jl^$boost=4,site=beacon-biosignals.github.io
 $boost=4,site=biojulia.net
 /*.jl^$boost=4,site=invenia.github.io
+$boost=4,site=juliaai.github.io
 $boost=4,site=juliaanimators.github.io
 $boost=4,site=juliaarrays.github.io
 $boost=4,site=juliacollections.github.io
@@ -62,7 +63,7 @@ $boost=3,site=juliafordatascience.com
 $boost,site=juliaacademy.com
 $boost,site=julia.mit.edu
 $boost,site=juliabloggers.com
-$boost,site=towardsdatascience.com
+julia$boost,site=towardsdatascience.com
 julia$boost,site=foxinfotech.org
 $boost,site=gadflyjl.org
 /julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
