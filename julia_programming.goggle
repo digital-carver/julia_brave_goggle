@@ -82,6 +82,9 @@ julia$boost=3,site=github.io
 julia$boost=3,site=stackoverflow.com
 /*.jl^$boost=3,site=gitlab.com
 
+! prone to false positives, but probably overall helpful
+julia$boost
+Julia$boost
 ! LWN has good Julia articles, but the URLs are non-pattern-matchable, so go generic boost
 $boost,site=lwn.net
 
