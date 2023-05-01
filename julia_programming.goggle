@@ -8,14 +8,6 @@
 ! Remove results not matching any other rule
 ! $discard
 
-! Generic heuristic boosting
-julia$boost,site=github.com
-/*.jl^$boost,site=github.com
-julia$boost,site=github.io
-julia$boost,site=stackoverflow.com
-$boost,site=lwn.net
-/*.jl^$boost,site=gitlab.com
-
 ! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
 $boost=5,site=julialang.org
@@ -78,6 +70,14 @@ $boost,site=gadflyjl.org
 Introducing_Julia$boost,site=en.wikibooks.org
 /tracks/julia/$boost,site=exercism.org
 $boost,site=quinnj.github.io
+
+! Generic heuristic boosting
+julia$boost=3,site=github.com
+/*.jl^$boost=3,site=github.com
+julia$boost,site=github.io
+julia$boost,site=stackoverflow.com
+$boost,site=lwn.net
+/*.jl^$boost=3,site=gitlab.com
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
