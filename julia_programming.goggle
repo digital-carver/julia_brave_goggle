@@ -39,10 +39,12 @@ $boost=4,site=m3g.github.io
 $boost=4,site=makie.org
 $boost=4,site=plutojl.org
 $boost=4,site=sciml.ai
+$boost=4,site=turing.ml
 
 ! other sites with very useful learning resources
 $boost=4,site=bkamins.github.io
 $boost=4,site=computationalthinking.mit.edu
+$boost=4,site=datasciencejuliahackers.com
 $boost=4,site=julia-vscode.org
 ! mainly for the Zulip archive
 $boost=4,site=juliacommunity.github.io
@@ -53,12 +55,17 @@ $boost=4,site=julia.quantecon.org
 /catam-julia/$boost=4,site=sje30.github.io
 $boost=4,site=techytok.com
 
+
 ! Good blog posts
 $boost=3,site=juliafordatascience.com
+$boost=3,site=oxinabox.net
 /posts/$boost=3,site=huijzer.xyz
 /posts/$boost=3,site=viralinstruction.com
 /blog/$boost=3,site=abelsiqueira.com
 /pages/$boost=3,site=jkrumbiegel.com
+$boost=3,site=stochasticlifestyle.com
+/blog/$boost=3,site=miguelraz.github.io
+/pages/blog/$boost=3,site=tamaspapp.eu
 
 ! Other potentially useful resources
 $boost,site=juliaacademy.com
@@ -72,6 +79,9 @@ $boost,site=gadflyjl.org
 Introducing_Julia$boost,site=en.wikibooks.org
 /tracks/julia/$boost,site=exercism.org
 $boost,site=quinnj.github.io
+$boost,site=weavejl.mpastell.com
+! lower than the /pages/blog/ above since older (<2019) posts
+/post/$boost,site=tamaspapp.eu
 
 ! Generic heuristic boosting
 julia$boost=3,site=github.com
