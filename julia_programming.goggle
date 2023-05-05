@@ -6,7 +6,7 @@
 ! issues: https://github.com/digital-carver/julia_brave_goggle/issues
 
 ! Downrank results not matching any other rule
-$downrank
+$downrank=10
 
 ! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
