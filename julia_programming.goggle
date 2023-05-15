@@ -6,97 +6,98 @@
 ! issues: https://github.com/digital-carver/julia_brave_goggle/issues
 
 ! Downrank results not matching any other rule
+! Probably does nothing, question pending: brave/goggles-quickstart#34
 $downrank=10
 
 ! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
-$boost=5,site=julialang.org
-$boost=5,site=juliahub.com
-$boost=4,site=juliacon.org
+$boost=10,site=julialang.org
+$boost=10,site=juliahub.com
+$boost=9,site=juliacon.org
 
 ! sites of Julia package organizations
-/*.jl^$boost=4,site=beacon-biosignals.github.io
-$boost=4,site=biojulia.net
-/*.jl^$boost=4,site=invenia.github.io
-$boost=4,site=juliaai.github.io
-$boost=4,site=juliaanimators.github.io
-$boost=4,site=juliaarrays.github.io
-$boost=4,site=juliacollections.github.io
-$boost=4,site=juliadata.org
-$boost=4,site=juliafem.org
-$boost=4,site=juliageo.org
-$boost=4,site=juliagpu.org
-$boost=4,site=juliagraphs.org
-$boost=4,site=juliagraphics.github.io
-$boost=4,site=juliaio.github.io
-$boost=4,site=juliamath.github.io
-$boost=4,site=juliaplots.org
-$boost=4,site=juliastats.org
-$boost=4,site=juliasymbolics.org
-$boost=4,site=jump.dev
+/*.jl^$boost=9,site=beacon-biosignals.github.io
+$boost=9,site=biojulia.net
+/*.jl^$boost=9,site=invenia.github.io
+$boost=9,site=juliaai.github.io
+$boost=9,site=juliaanimators.github.io
+$boost=9,site=juliaarrays.github.io
+$boost=9,site=juliacollections.github.io
+$boost=9,site=juliadata.org
+$boost=9,site=juliafem.org
+$boost=9,site=juliageo.org
+$boost=9,site=juliagpu.org
+$boost=9,site=juliagraphs.org
+$boost=9,site=juliagraphics.github.io
+$boost=9,site=juliaio.github.io
+$boost=9,site=juliamath.github.io
+$boost=9,site=juliaplots.org
+$boost=9,site=juliastats.org
+$boost=9,site=juliasymbolics.org
+$boost=9,site=jump.dev
 ! has the very useful JuliaNotes.jl, among other packages
-$boost=4,site=m3g.github.io
-$boost=4,site=makie.org
-$boost=4,site=plutojl.org
-$boost=4,site=sciml.ai
-$boost=4,site=turing.ml
+$boost=9,site=m3g.github.io
+$boost=9,site=makie.org
+$boost=9,site=plutojl.org
+$boost=9,site=sciml.ai
+$boost=9,site=turing.ml
 
 ! other sites with very useful learning resources
-$boost=4,site=bkamins.github.io
-$boost=4,site=computationalthinking.mit.edu
-$boost=4,site=datasciencejuliahackers.com
-$boost=4,site=julia-vscode.org
+$boost=9,site=bkamins.github.io
+$boost=9,site=computationalthinking.mit.edu
+$boost=9,site=datasciencejuliahackers.com
+$boost=9,site=julia-vscode.org
 ! mainly for the Zulip archive
-$boost=4,site=juliacommunity.github.io
-$boost=4,site=juliadatascience.io
-$boost=4,site=forem.julialang.org
-$boost=4,site=juliateachingctu.github.io
-$boost=4,site=julia.quantecon.org
-/catam-julia/$boost=4,site=sje30.github.io
-$boost=4,site=techytok.com
+$boost=9,site=juliacommunity.github.io
+$boost=9,site=juliadatascience.io
+$boost=9,site=forem.julialang.org
+$boost=9,site=juliateachingctu.github.io
+$boost=9,site=julia.quantecon.org
+/catam-julia/$boost=9,site=sje30.github.io
+$boost=9,site=techytok.com
 
 
 ! Good blog posts
-$boost=3,site=juliafordatascience.com
-$boost=3,site=oxinabox.net
-/posts/$boost=3,site=huijzer.xyz
-/posts/$boost=3,site=viralinstruction.com
-/blog/$boost=3,site=abelsiqueira.com
-/pages/$boost=3,site=jkrumbiegel.com
-$boost=3,site=stochasticlifestyle.com
-/blog/$boost=3,site=miguelraz.github.io
-/pages/blog/$boost=3,site=tamaspapp.eu
+$boost=8,site=juliafordatascience.com
+$boost=8,site=oxinabox.net
+/posts/$boost=8,site=huijzer.xyz
+/posts/$boost=8,site=viralinstruction.com
+/blog/$boost=8,site=abelsiqueira.com
+/pages/$boost=8,site=jkrumbiegel.com
+$boost=8,site=stochasticlifestyle.com
+/blog/$boost=8,site=miguelraz.github.io
+/pages/blog/$boost=8,site=tamaspapp.eu
 
 ! Other potentially useful resources
-$boost,site=juliaacademy.com
-$boost,site=julia.mit.edu
-$boost,site=juliabloggers.com
-julia$boost,site=towardsdatascience.com
-julia$boost,site=foxinfotech.org
-$boost,site=gadflyjl.org
-/julia-language-a-concise-tutorial/$boost,site=syl1.gitbook.io
-/r/Julia/$boost,site=reddit.com
-Introducing_Julia$boost,site=en.wikibooks.org
-/tracks/julia/$boost,site=exercism.org
-$boost,site=quinnj.github.io
-$boost,site=weavejl.mpastell.com
+$boost=5,site=juliaacademy.com
+$boost=5,site=julia.mit.edu
+$boost=5,site=juliabloggers.com
+julia$boost=5,site=towardsdatascience.com
+julia$boost=5,site=foxinfotech.org
+$boost=5,site=gadflyjl.org
+/julia-language-a-concise-tutorial/$boost=5,site=syl1.gitbook.io
+/r/Julia/$boost=5,site=reddit.com
+Introducing_Julia$boost=5,site=en.wikibooks.org
+/tracks/julia/$boost=5,site=exercism.org
+$boost=5,site=quinnj.github.io
+$boost=5,site=weavejl.mpastell.com
 ! lower than the /pages/blog/ above since older (<2019) posts
-/post/$boost,site=tamaspapp.eu
+/post/$boost=5,site=tamaspapp.eu
 
 ! Generic heuristic boosting
-julia$boost=3,site=github.com
+julia$boost=8,site=github.com
 ! not clear if patterns are case sensitive, so:
-Julia$boost=3,site=github.com
-/*.jl^$boost=3,site=github.com
-julia$boost=3,site=github.io
-julia$boost=3,site=stackoverflow.com
-/*.jl^$boost=3,site=gitlab.com
+Julia$boost=8,site=github.com
+/*.jl^$boost=8,site=github.com
+julia$boost=8,site=github.io
+julia$boost=8,site=stackoverflow.com
+/*.jl^$boost=8,site=gitlab.com
 
 ! prone to false positives, but probably overall helpful
-julia$boost
-Julia$boost
+julia$boost=5
+Julia$boost=5
 ! LWN has good Julia articles, but the URLs are non-pattern-matchable, so go generic boost
-$boost,site=lwn.net
+$boost=5,site=lwn.net
 
 ! Site unmaintained, misleading information (dates, etc.)
 $downrank,site=juliapackages.com
