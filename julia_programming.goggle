@@ -7,7 +7,10 @@
 
 ! Downrank results not matching any other rule
 ! Probably does nothing, question pending: brave/goggles-quickstart#34
-$downrank=10
+! $downrank=10
+
+! Since generic downrank doesn't work, just discard everything else
+$discard
 
 ! "Official" sites
 ! is it necessary to have separate entries for docs.j discourse.j etc.? 
